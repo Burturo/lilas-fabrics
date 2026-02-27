@@ -1,0 +1,629 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lila's Fabrics — Tissus d'Exception & Modèles de Couture</title>
+  <meta name="description" content="Lila's Fabrics - Votre destination pour les plus beaux tissus à Niamey. Wax, Bazin, Soie, Dentelle et modèles de couture exclusifs.">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&display=swap" rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logo.png">
+</head>
+<body>
+
+  <!-- ==================== LOADER ==================== -->
+  <div class="loader" id="loader">
+    <div class="loader-logo">
+      <img src="images/logo.png" alt="Lila's Fabrics">
+    </div>
+    <div class="loader-text">LILA'S FABRICS</div>
+    <div class="loader-bar"></div>
+  </div>
+
+
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav id="navbar">
+    <a href="#" class="nav-brand">
+      <img src="images/logo.png" alt="Lila's Fabrics" class="nav-logo-img">
+      <span class="nav-name">Lila's <span class="accent">Fabrics</span></span>
+    </a>
+    <div class="nav-links">
+      <a href="#about">À Propos</a>
+      <a href="#categories">Tissus</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#models">Modèles</a>
+      <a href="#contact" class="nav-cta-btn">Commander</a>
+    </div>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#about" onclick="closeMobile()">À Propos</a>
+    <a href="#categories" onclick="closeMobile()">Tissus</a>
+    <a href="#boutique" onclick="closeMobile()">Boutique</a>
+    <a href="#models" onclick="closeMobile()">Modèles</a>
+    <a href="#contact" onclick="closeMobile()">Contact</a>
+  </div>
+
+
+  <!-- ==================== HERO ==================== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-pattern"></div>
+    <div class="hero-fabric-texture"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="hero-badge-dot"></span>
+          Nouvelle Collection Disponible
+        </div>
+        <h1 class="hero-title">
+          Des Tissus<br>
+          d'<span class="italic rose">Exception</span><br>
+          Pour Vous
+        </h1>
+        <p class="hero-desc">Découvrez notre sélection de tissus raffinés et nos modèles de couture exclusifs. De la soie au wax, chaque pièce est choisie avec soin pour sublimer vos créations.</p>
+        <div class="hero-btns">
+          <a href="#boutique" class="btn-primary">Voir les Tissus <span>→</span></a>
+          <a href="#models" class="btn-outline">Nos Modèles</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="hero-visual">
+          <div class="hero-card hero-card-1">
+            <span class="hero-card-icon">🧵</span>
+            <span class="hero-card-text">Tissus Premium</span>
+          </div>
+          <div class="hero-card hero-card-2">
+            <span class="hero-card-icon">✂️</span>
+            <span class="hero-card-text">Modèles</span>
+          </div>
+          <div class="hero-floating-tag tag-1">
+            <span class="tag-icon">🌟</span>
+            <div>
+              <div class="tag-label">+200 Tissus</div>
+              <div class="tag-sub">Collection variée</div>
+            </div>
+          </div>
+          <div class="hero-floating-tag tag-2">
+            <span class="tag-icon">🪡</span>
+            <div>
+              <div class="tag-label">Couture Sur Mesure</div>
+              <div class="tag-sub">Modèles exclusifs</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== MARQUEE ==================== -->
+  <div class="marquee-section">
+    <div class="marquee-track">
+      <span class="marquee-item">TISSUS WAX <span class="dot"></span> BAZIN RICHE <span class="dot"></span> SOIE NATURELLE <span class="dot"></span> DENTELLE <span class="dot"></span> MODÈLES DE COUTURE <span class="dot"></span> LIVRAISON NIAMEY <span class="dot"></span> SATISFACTION GARANTIE <span class="dot"></span></span>
+      <span class="marquee-item">TISSUS WAX <span class="dot"></span> BAZIN RICHE <span class="dot"></span> SOIE NATURELLE <span class="dot"></span> DENTELLE <span class="dot"></span> MODÈLES DE COUTURE <span class="dot"></span> LIVRAISON NIAMEY <span class="dot"></span> SATISFACTION GARANTIE <span class="dot"></span></span>
+    </div>
+  </div>
+
+
+  <!-- ==================== ABOUT ==================== -->
+  <section class="section-full about-section" id="about">
+    <div class="about-grid" style="padding:0 4rem;">
+      <div class="about-text reveal">
+        <div class="section-label">Notre Histoire</div>
+        <h2 class="section-title">L'Art du Tissu,<br>Notre Passion</h2>
+        <p>Chez <strong>Lila's Fabrics</strong>, chaque tissu raconte une histoire. Nous sélectionnons avec passion les plus belles étoffes pour vous offrir une expérience unique. Du wax traditionnel aux tissus modernes, notre collection célèbre la beauté et la diversité textile.</p>
+        <p>En plus de nos tissus d'exception, nous proposons des modèles de couture exclusifs pour vous inspirer et donner vie à vos créations les plus audacieuses.</p>
+        <div class="about-features">
+          <div class="about-feature">
+            <div class="about-feature-icon">🎨</div>
+            <div class="about-feature-title">Variété</div>
+            <div class="about-feature-desc">Plus de 200 tissus différents en stock permanent</div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">✨</div>
+            <div class="about-feature-title">Qualité</div>
+            <div class="about-feature-desc">Tissus sélectionnés auprès des meilleurs fournisseurs</div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">✂️</div>
+            <div class="about-feature-title">Modèles</div>
+            <div class="about-feature-desc">Des modèles de couture exclusifs et tendance</div>
+          </div>
+          <div class="about-feature">
+            <div class="about-feature-icon">💝</div>
+            <div class="about-feature-title">Conseil</div>
+            <div class="about-feature-desc">Un accompagnement personnalisé pour chaque client</div>
+          </div>
+        </div>
+      </div>
+      <div class="about-visual reveal">
+        <div class="about-img-main">
+          <!-- Remplacez par votre image : <img src="images/about.jpg" alt="À propos"> -->
+          <span class="about-img-placeholder">LF</span>
+        </div>
+        <div class="about-stat-card">
+          <div class="about-stat-num">200+</div>
+          <div class="about-stat-label">Tissus en stock</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== CATEGORIES ==================== -->
+  <section class="section" id="categories">
+    <div class="reveal">
+      <div class="section-label">Nos Catégories</div>
+      <h2 class="section-title">Explorez Nos Tissus</h2>
+      <p class="section-desc">Une sélection unique de tissus pour tous vos projets de couture, des plus classiques aux plus tendance.</p>
+    </div>
+    <div class="categories-grid">
+      <div class="category-card cat-1 reveal">
+        <div class="cat-bg">
+          <!-- <img src="images/cat-wax.jpg" alt="Wax"> -->
+        </div>
+        <div class="cat-overlay">
+          <div class="cat-icon">🌺</div>
+          <div class="cat-name">Wax & Ankara</div>
+          <div class="cat-count">60+ références</div>
+        </div>
+        <div class="cat-arrow">→</div>
+      </div>
+      <div class="category-card cat-2 reveal reveal-delay-1">
+        <div class="cat-bg">
+          <!-- <img src="images/cat-bazin.jpg" alt="Bazin"> -->
+        </div>
+        <div class="cat-overlay">
+          <div class="cat-icon">👑</div>
+          <div class="cat-name">Bazin Riche</div>
+          <div class="cat-count">45+ références</div>
+        </div>
+        <div class="cat-arrow">→</div>
+      </div>
+      <div class="category-card cat-3 reveal reveal-delay-2">
+        <div class="cat-bg">
+          <!-- <img src="images/cat-soie.jpg" alt="Soie"> -->
+        </div>
+        <div class="cat-overlay">
+          <div class="cat-icon">✨</div>
+          <div class="cat-name">Soie & Satin</div>
+          <div class="cat-count">35+ références</div>
+        </div>
+        <div class="cat-arrow">→</div>
+      </div>
+      <div class="category-card cat-4 reveal reveal-delay-3">
+        <div class="cat-bg">
+          <!-- <img src="images/cat-dentelle.jpg" alt="Dentelle"> -->
+        </div>
+        <div class="cat-overlay">
+          <div class="cat-icon">🪡</div>
+          <div class="cat-name">Dentelle & Broderie</div>
+          <div class="cat-count">40+ références</div>
+        </div>
+        <div class="cat-arrow">→</div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== PRODUCTS ==================== -->
+  <section class="section-full products-section" id="boutique">
+    <div class="products-header" style="padding:0 4rem;">
+      <div class="reveal">
+        <div class="section-label">Notre Sélection</div>
+        <h2 class="section-title">Tissus Populaires</h2>
+      </div>
+      <div class="products-tabs reveal">
+        <button class="products-tab active" data-filter="all">Tous</button>
+        <button class="products-tab" data-filter="wax">Wax</button>
+        <button class="products-tab" data-filter="bazin">Bazin</button>
+        <button class="products-tab" data-filter="soie">Soie</button>
+        <button class="products-tab" data-filter="dentelle">Dentelle</button>
+      </div>
+    </div>
+    <div class="products-grid" id="productsGrid" style="padding:0 4rem;">
+      <!-- WAX -->
+      <div class="product-card prod-1" data-category="wax">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🌺</span></div>
+          <div class="product-badge new">Nouveau</div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Wax Hollandais Premium</div>
+        <div class="product-type">Tissu Wax — 100% Coton</div>
+        <div class="product-price">4 500 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-8" data-category="wax">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🌸</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Ankara Super Wax</div>
+        <div class="product-type">Wax — Motifs floraux</div>
+        <div class="product-price">3 800 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-9" data-category="wax">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🦋</span></div>
+          <div class="product-badge promo">Promo</div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Wax Africain Papillon</div>
+        <div class="product-type">Wax — Motifs géométriques</div>
+        <div class="product-price">3 200 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-10" data-category="wax">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🔶</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Wax Fancy Doré</div>
+        <div class="product-type">Wax — Édition spéciale</div>
+        <div class="product-price">5 500 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <!-- BAZIN -->
+      <div class="product-card prod-2" data-category="bazin">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">👑</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Bazin Riche Getzner</div>
+        <div class="product-type">Bazin — Qualité supérieure</div>
+        <div class="product-price">8 000 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-7" data-category="bazin">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🖤</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Voile Suisse Noir</div>
+        <div class="product-type">Voile — Premium</div>
+        <div class="product-price">7 000 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-11" data-category="bazin">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">💎</span></div>
+          <div class="product-badge new">Nouveau</div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Bazin Riche Blanc Nacré</div>
+        <div class="product-type">Bazin — Cérémonie</div>
+        <div class="product-price">10 000 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <!-- SOIE -->
+      <div class="product-card prod-3" data-category="soie">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">✨</span></div>
+          <div class="product-badge promo">Promo</div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Soie de Chine Dorée</div>
+        <div class="product-type">Soie — Importation directe</div>
+        <div class="product-price">12 000 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-6" data-category="soie">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🎀</span></div>
+          <div class="product-badge new">Nouveau</div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Satin Duchesse Rose</div>
+        <div class="product-type">Satin — Événementiel</div>
+        <div class="product-price">9 500 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-12" data-category="soie">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🌙</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Organza Ivoire</div>
+        <div class="product-type">Organza — Mariage</div>
+        <div class="product-price">11 000 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <!-- DENTELLE -->
+      <div class="product-card prod-4" data-category="dentelle">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🪡</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Dentelle Française</div>
+        <div class="product-type">Dentelle — Haute qualité</div>
+        <div class="product-price">15 000 FCFA <span class="unit">/ yard</span></div>
+      </div>
+      <div class="product-card prod-5" data-category="dentelle">
+        <div class="product-img">
+          <div class="product-img-inner"><span class="product-placeholder">🌿</span></div>
+          <div class="product-wishlist"><span>♡</span></div>
+        </div>
+        <div class="product-name">Coton Brodé Vert</div>
+        <div class="product-type">Coton Brodé — Artisanal</div>
+        <div class="product-price">6 500 FCFA <span class="unit">/ yard</span></div>
+      </div>
+    </div>
+    <!-- Pagination -->
+    <div class="products-pagination" id="productsPagination" style="padding:0 4rem;"></div>
+  </section>
+
+
+  <!-- ==================== LOOKBOOK BANNER ==================== -->
+  <section class="lookbook-banner">
+    <div class="lookbook-bg"></div>
+    <div class="lookbook-fabric-lines"></div>
+    <div class="lookbook-content reveal">
+      <p class="lookbook-tag">Collection 2026</p>
+      <h2 class="lookbook-title">Créez Votre<br><em>Chef-d'Œuvre</em></h2>
+      <p class="lookbook-subtitle">Nos tissus, votre imagination. Découvrez les dernières tendances et laissez-vous inspirer par nos modèles exclusifs.</p>
+      <a href="#models" class="lookbook-btn">Voir les Modèles →</a>
+    </div>
+  </section>
+
+
+  <!-- ==================== MODELS ==================== -->
+  <section class="section" id="models">
+    <div class="models-header reveal">
+      <div>
+        <div class="section-label">Inspiration Couture</div>
+        <h2 class="section-title">Nos Modèles de Couture</h2>
+        <p class="section-desc">Des modèles tendance pour femmes et hommes, conçus pour sublimer chaque silhouette avec nos tissus d'exception.</p>
+      </div>
+      <div class="models-nav">
+        <button class="models-btn models-prev" id="modelsPrev" aria-label="Précédent">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5"/><path d="M12 19l-7-7 7-7"/></svg>
+        </button>
+        <button class="models-btn models-next" id="modelsNext" aria-label="Suivant">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+    <div class="models-slider reveal" id="modelsSlider">
+      <div class="models-track" id="modelsTrack">
+        <div class="model-card mod-1">
+          <div class="model-img">
+            <!-- <img src="images/models/robe-longue.jpg" alt="Robe Longue"> -->
+            <span class="model-img-placeholder">👗</span>
+          </div>
+          <div class="model-info">
+            <div class="model-category">Femme — Événement</div>
+            <div class="model-name">Robe Longue Évasée</div>
+            <div class="model-desc">Modèle élégant pour cérémonies, idéal avec du bazin ou de la soie.</div>
+            <div class="model-price">
+              <span class="model-price-value">Couture dès 25 000 FCFA</span>
+              <a href="#contact" class="model-price-link">Commander →</a>
+            </div>
+          </div>
+        </div>
+        <div class="model-card mod-2">
+          <div class="model-img">
+            <!-- <img src="images/models/boubou.jpg" alt="Grand Boubou"> -->
+            <span class="model-img-placeholder">🧥</span>
+          </div>
+          <div class="model-info">
+            <div class="model-category">Homme — Traditionnel</div>
+            <div class="model-name">Grand Boubou Brodé</div>
+            <div class="model-desc">Boubou raffiné en bazin riche avec broderie artisanale détaillée.</div>
+            <div class="model-price">
+              <span class="model-price-value">Couture dès 35 000 FCFA</span>
+              <a href="#contact" class="model-price-link">Commander →</a>
+            </div>
+          </div>
+        </div>
+        <div class="model-card mod-3">
+          <div class="model-img">
+            <!-- <img src="images/models/ensemble-wax.jpg" alt="Ensemble Wax"> -->
+            <span class="model-img-placeholder">👚</span>
+          </div>
+          <div class="model-info">
+            <div class="model-category">Femme — Casual</div>
+            <div class="model-name">Ensemble Wax Moderne</div>
+            <div class="model-desc">Top et jupe assortis en wax pour un look tendance et confortable.</div>
+            <div class="model-price">
+              <span class="model-price-value">Couture dès 18 000 FCFA</span>
+              <a href="#contact" class="model-price-link">Commander →</a>
+            </div>
+          </div>
+        </div>
+        <div class="model-card mod-4">
+          <div class="model-img">
+            <!-- <img src="images/models/tailleur.jpg" alt="Tailleur"> -->
+            <span class="model-img-placeholder">👔</span>
+          </div>
+          <div class="model-info">
+            <div class="model-category">Homme — Moderne</div>
+            <div class="model-name">Costume Africain Chic</div>
+            <div class="model-desc">Costume moderne en wax avec coupe ajustée pour un look professionnel.</div>
+            <div class="model-price">
+              <span class="model-price-value">Couture dès 30 000 FCFA</span>
+              <a href="#contact" class="model-price-link">Commander →</a>
+            </div>
+          </div>
+        </div>
+        <div class="model-card mod-5">
+          <div class="model-img">
+            <!-- <img src="images/models/robe-cocktail.jpg" alt="Robe Cocktail"> -->
+            <span class="model-img-placeholder">💃</span>
+          </div>
+          <div class="model-info">
+            <div class="model-category">Femme — Soirée</div>
+            <div class="model-name">Robe Cocktail Dentelle</div>
+            <div class="model-desc">Robe courte en dentelle française, parfaite pour les soirées élégantes.</div>
+            <div class="model-price">
+              <span class="model-price-value">Couture dès 22 000 FCFA</span>
+              <a href="#contact" class="model-price-link">Commander →</a>
+            </div>
+          </div>
+        </div>
+        <div class="model-card mod-6">
+          <div class="model-img">
+            <!-- <img src="images/models/ensemble-couple.jpg" alt="Ensemble Couple"> -->
+            <span class="model-img-placeholder">💑</span>
+          </div>
+          <div class="model-info">
+            <div class="model-category">Couple — Cérémonie</div>
+            <div class="model-name">Ensemble Assorti Couple</div>
+            <div class="model-desc">Tenue coordonnée pour couple en bazin riche brodé, idéale pour les mariages.</div>
+            <div class="model-price">
+              <span class="model-price-value">Couture dès 55 000 FCFA</span>
+              <a href="#contact" class="model-price-link">Commander →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="models-dots" id="modelsDots"></div>
+  </section>
+
+
+  <!-- ==================== TESTIMONIALS ==================== -->
+  <section class="section-full testimonials-section">
+    <div style="max-width:1300px;margin:0 auto;padding:0 4rem;">
+      <div class="reveal">
+        <div class="section-label">Avis Clients</div>
+        <h2 class="section-title">Ce Que Disent Nos Clientes</h2>
+      </div>
+    </div>
+    <div class="testimonials-grid" style="padding:0 4rem;">
+      <div class="testimonial-card reveal">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">« Des tissus d'une qualité exceptionnelle ! Le bazin de chez Lila's est le meilleur que j'ai trouvé à Niamey. Je recommande à 100%. »</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">A</div>
+          <div>
+            <div class="testimonial-name">Aminata S.</div>
+            <div class="testimonial-role">Cliente fidèle</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-1">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">« Les modèles de couture sont magnifiques et les conseils sont toujours au rendez-vous. Mon couturier adore travailler avec leurs tissus. »</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">F</div>
+          <div>
+            <div class="testimonial-name">Fatoumata D.</div>
+            <div class="testimonial-role">Styliste</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal reveal-delay-2">
+        <div class="testimonial-stars">★★★★★</div>
+        <p class="testimonial-text">« Service rapide et tissus toujours au top. La dentelle que j'ai achetée pour mon mariage était tout simplement parfaite ! »</p>
+        <div class="testimonial-author">
+          <div class="testimonial-avatar">H</div>
+          <div>
+            <div class="testimonial-name">Hadiza M.</div>
+            <div class="testimonial-role">Mariée 2025</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== CONTACT ==================== -->
+  <section class="section-full contact-section" id="contact">
+    <div class="contact-glow"></div>
+    <div class="contact-content reveal" style="padding:0 1.5rem;">
+      <div class="contact-icon">📱</div>
+      <h2 class="contact-title">Contactez-Nous</h2>
+      <p class="contact-desc">Commandez vos tissus ou demandez conseil. Nous sommes disponibles sur WhatsApp, Instagram et TikTok pour vous accompagner dans vos choix.</p>
+      <div class="contact-methods">
+        <a href="https://wa.me/22790118727" class="contact-btn whatsapp" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://instagram.com/lilasfabrics" class="contact-btn instagram" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+          <span>Instagram</span>
+        </a>
+        <a href="https://tiktok.com/@lilasfabrics" class="contact-btn tiktok" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.48V13a8.28 8.28 0 005.58 2.17v-3.48a4.85 4.85 0 01-2.65-.78V6.69h2.65z"/></svg>
+          <span>TikTok</span>
+        </a>
+        <a href="tel:+22790118727" class="contact-btn phone">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+          <span>+227 90 11 87 27</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== NEWSLETTER ==================== -->
+  <section class="newsletter">
+    <div class="newsletter-inner reveal">
+      <h2 class="newsletter-title">Restez Inspiré(e)</h2>
+      <p class="newsletter-desc">Recevez en avant-première nos nouveaux tissus, modèles et offres exclusives directement dans votre boîte mail.</p>
+      <div class="newsletter-form">
+        <input type="email" class="newsletter-input" placeholder="Votre adresse e-mail">
+        <button class="newsletter-btn">S'inscrire</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand-section">
+        <a href="#" class="footer-logo">
+          <img src="images/logo.png" alt="Lila's Fabrics" class="footer-logo-img">
+          <span class="footer-logo-text">Lila's Fabrics</span>
+        </a>
+        <p>Votre destination pour les plus beaux tissus de Niamey. Qualité, variété et passion au service de votre élégance.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <a href="#about">À Propos</a>
+        <a href="#categories">Nos Tissus</a>
+        <a href="#boutique">Boutique</a>
+        <a href="#models">Modèles</a>
+      </div>
+      <div class="footer-col">
+        <h4>Tissus</h4>
+        <a href="#">Wax & Ankara</a>
+        <a href="#">Bazin Riche</a>
+        <a href="#">Soie & Satin</a>
+        <a href="#">Dentelle</a>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <a href="tel:+22790118727">+227 90 11 87 27</a>
+        <a href="https://wa.me/22790118727">WhatsApp</a>
+        <a href="#">Niamey, Niger</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Lila's Fabrics — Tous droits réservés</p>
+      <div class="footer-social">
+        <a href="https://wa.me/22790118727" title="WhatsApp" class="social-whatsapp">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+        <a href="https://instagram.com/lilasfabrics" title="Instagram" class="social-instagram">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+        </a>
+        <a href="https://tiktok.com/@lilasfabrics" title="TikTok" class="social-tiktok">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 01-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 01-2.88 2.5 2.89 2.89 0 01-2.89-2.89 2.89 2.89 0 012.89-2.89c.28 0 .54.04.79.1v-3.5a6.37 6.37 0 00-.79-.05A6.34 6.34 0 003.15 15.2a6.34 6.34 0 0010.86 4.48V13a8.28 8.28 0 005.58 2.17v-3.48a4.85 4.85 0 01-2.65-.78V6.69h2.65z"/></svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== BACK TO TOP ==================== -->
+  <a href="#hero" class="back-to-top" id="backToTop">↑</a>
+
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
